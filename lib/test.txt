@@ -1,0 +1,38 @@
+Padding(
+                      padding:  EdgeInsets.only(right:width*.4 ),
+                      child: Text(
+                        "Active",
+                         style: TextStyle(
+                          color: Colors.black87,
+                          letterSpacing: -0.3,
+                          fontSize: width*.04,
+                          fontWeight: FontWeight.w500,
+                        ),
+                        ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(left: 15),
+                      child: Text(
+                        "119999",
+                         style: TextStyle(
+                          color: Colors.red,
+                          letterSpacing: -0.6,
+                          fontSize: width*.06,
+                          fontWeight: FontWeight.w500,
+                        ),
+                        ),
+                    ),
+
+                    Padding(
+                      padding: EdgeInsets.only(left: 15),
+                      child: Text(
+                          "100+",
+                          style: TextStyle(
+                            
+                            color: Colors.green,
+                            letterSpacing: -0.8,
+                            fontSize: width*.03,
+                            fontWeight: FontWeight.w500,
+                          ),
+                          ),
+                    ),
